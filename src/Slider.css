@@ -1,0 +1,104 @@
+/* body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  #body{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  } */
+
+#main-slider-container {
+    width: 100%;
+    height: 306px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#slider {
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+}
+
+#slider::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+}
+
+.slider-icon.left, .slider-icon.right {
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.5;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+    color: black;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.slider-icon.left:hover, .slider-icon.right:hover {
+    opacity: 1;
+}
+
+.slider-card {
+    width: 280px;
+    height: 300px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.slider-card-image {
+    width: 100%;
+    height: 225px;
+    background-color: rgb(238, 238, 238);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.slider-card-title, .slider-card-description {
+    margin: 10px 0px 5px 10px;
+
+}
+
+.slider-card-title {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.slider-card-description {
+    opacity: 0.5;
+    font-size: 13px;
+}
