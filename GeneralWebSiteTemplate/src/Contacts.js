@@ -13,7 +13,7 @@ import {
 } from "reactstrap";
 import { FaLocationArrow, FaMailBulk, FaPhone } from "react-icons/fa";
 
-const Contact = () => {
+const Contacts = () => {
   const color1 = "rgb(2550, 255, 255)";
   const color2 = "rgb(32, 44, 59)";
 
@@ -220,4 +220,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contacts;

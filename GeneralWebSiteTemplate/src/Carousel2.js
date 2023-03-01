@@ -29,7 +29,7 @@ const items = [
   },
 ];
 
-function Carouselx(args) {
+function Carousel2(args) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -109,4 +109,4 @@ function Carouselx(args) {
   );
 }
 
-export default Carouselx;
+export default Carousel2;

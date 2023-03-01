@@ -19,7 +19,7 @@ import {
 } from "reactstrap";
 import ReactCardSlider from "./ReactCardSlider";
 import Carousel1 from "./Carousel1";
-import Carouselx from "./Carousel2";
+import Carousel2 from "./Carousel2";
 import { FaLocationArrow, FaMailBulk, FaPhone } from "react-icons/fa";
 
 function Home() {
@@ -393,7 +393,7 @@ function Home() {
         </div>
         {/*  */}
         <div id="recent">
-          <Carouselx id="projects" />
+          <Carousel2 id="projects" />
         </div>
 
         {/*  */}
